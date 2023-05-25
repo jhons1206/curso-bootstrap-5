@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Grid</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css" />
+        <style>
+            .row > div {
+                background-color: #f2f2f2;
+                margin: 10px 0;
+                padding: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- El container es el contenedor principal, en el van todas las filas y columnas -->
+        <!-- Con el container podemos centrar nuestra página -->
+        <div class="container">
+            <!-- Las filas (row) son grupos HORIZONTALES de columnas -->
+
+            <!-- Los tamaños de columna en Bootstrap 5 son: 
+             .col        Extra Pequeño (Extra Small) - Smartphones Vertical           Menos de 576px
+             .col-sm     Pequeño (Small) - Smartphones Vertical                       Más de 576px y menos de 768px
+             .col-md     Mediano (Medium) - Smartphones Vertical                      Más de 768px y menos de 992px
+             .col-lg     Largo (Large) - Computadoras                                 Más de 992px y menos de 1200px
+             .col-xl     Extra Largo (Extra Large) - Computadoras                     Más de 1200px
+             .col-xxl    Extra Extra Largo (Extra Extra Large) - Televisiones         Más de 1400px
+            -->
+
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <h1>Hola Mundo</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quasi. Ipsam amet placeat nostrum quisquam nam quas similique libero dolore itaque nobis dolores molestiae nesciunt, molestias ad vero. Asperiores, sed?</p>
+                    <button class="btn btn-primary">Ver más</button>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <h1>Hola Mundo</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quasi. Ipsam amet placeat nostrum quisquam nam quas similique libero dolore itaque nobis dolores molestiae nesciunt, molestias ad vero. Asperiores, sed?</p>
+                    <button class="btn btn-primary">Ver más</button>
+                </div>
+                <div class="col-12">
+                    <h1>Hola Mundo</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quasi. Ipsam amet placeat nostrum quisquam nam quas similique libero dolore itaque nobis dolores molestiae nesciunt, molestias ad vero. Asperiores, sed?</p>
+                    <button class="btn btn-primary">Ver más</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
